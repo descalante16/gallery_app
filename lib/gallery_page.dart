@@ -11,7 +11,7 @@ class GalleryPage extends StatefulWidget {
 
 class _GalleryPageState extends State<GalleryPage> {
   final String apiKey =
-      'PKRqhEb7Zwp4jI1C2AcuDzFxPxtazTbqx3rLxbvf3tXUME39Vmg9gPYa'; // Replace with your Pexels API key
+      'PKRqhEb7Zwp4jI1C2AcuDzFxPxtazTbqx3rLxbvf3tXUME39Vmg9gPYa'; 
   final String apiUrl = 'https://api.pexels.com/v1/curated?per_page=12';
 
   List<Map<String, dynamic>> images = [];
